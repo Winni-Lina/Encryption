@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/other.css">
+    <script src="../js/code.js"></script>
+</head>
+<body>
+
+    <div id = "div_table" style="position:absolute; top: 460px; left: 900px; background-color: aliceblue; opacity: 0%;">
+        <div id = "table"></div>
+        </div>
+    </div>
+    <div class="main_div">
+        <table>
+            <tr>
+                <td>사용할 암호키:</td>
+                <td colspan="2"><input type="text" placeholder="key" id="key" size="15"/></td>
+                <td rowspan="2"><button class="btn" onclick="Decryption()">복호화 하기</button></td>
+            </tr>
+            <tr>
+                <td>암호문:</td>
+                <td colspan="2"><input type="text" placeholder="pw_sentence" id="sentence" size="15"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="5"><p id="text"></p></td>
+            </tr>
+        </table>
+    </div>
+    <hr/>
+    <div class="main_div">
+        <table>
+            <tr>
+                <td>복호문</td>
+                <td colspan="3"><p id="result"></p></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button id='btn' type="button" onclick="show_board()" disabled="disabled">암호판 보기</button></td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+</html>

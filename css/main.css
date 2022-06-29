@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body{
+    width: 1450px;
+    height: 815px;
+    text-align: center;
+}
+
+p{
+    padding-top: 250px;
+    font-size: 40px;
+}

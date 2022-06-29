@@ -1,0 +1,30 @@
+@charset "utf-8";
+table{
+    border-spacing: 10px;
+    border: 0px;
+    padding-bottom: 50px;
+}
+td{
+    font-size: 30px;
+    padding: 20px;
+}
+input {
+    width:400px;
+    height:40px;
+    font-size:20px;
+}
+
+.main_div{
+    margin-left: 280px;
+    margin-top: 100px;
+}
+
+.btn{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+button{
+    font-size: 30px;
+}
